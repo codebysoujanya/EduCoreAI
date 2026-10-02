@@ -227,77 +227,13 @@
 #### 
 
 #### 🏗️ System Architecture
+## System Architecture
 
-#### 
+The following architecture represents the overall flow of EduCoreAI, including the frontend, backend, database, AI/ML services, Agentic AI, and mentor communication services.
 
-#### 
-
-#### &#x20;                   ┌─────────────────────┐
-
-#### &#x20;                   │       Student       │
-
-#### &#x20;                   └──────────┬──────────┘
-
-#### &#x20;                              │
-
-#### &#x20;                              ▼
-
-#### &#x20;                   ┌─────────────────────┐
-
-#### &#x20;                   │     EduCoreAI       │
-
-#### &#x20;                   │     Frontend        │
-
-#### &#x20;                   └──────────┬──────────┘
-
-#### &#x20;                              │
-
-#### &#x20;             ┌────────────────┼────────────────┐
-
-#### &#x20;             │                │                │
-
-#### &#x20;             ▼                ▼                ▼
-
-#### &#x20;       ┌───────────┐    ┌────────────┐   ┌─────────────┐
-
-#### &#x20;       │ Agentic   │    │ AI Insights│   │   Mentor    │
-
-#### &#x20;       │ AI        │    │ \& Risk     │   │   Matching  │
-
-#### &#x20;       └─────┬─────┘    └─────┬──────┘   └──────┬──────┘
-
-#### &#x20;             │                │                  │
-
-#### &#x20;             └────────────────┼──────────────────┘
-
-#### &#x20;                              ▼
-
-#### &#x20;                   ┌─────────────────────┐
-
-#### &#x20;                   │   Node.js / Express │
-
-#### &#x20;                   │      Backend        │
-
-#### &#x20;                   └──────────┬──────────┘
-
-#### &#x20;                              │
-
-#### &#x20;             ┌────────────────┼────────────────┐
-
-#### &#x20;             │                │                │
-
-#### &#x20;             ▼                ▼                ▼
-
-#### &#x20;       ┌───────────┐    ┌────────────┐   ┌─────────────┐
-
-#### &#x20;       │ MongoDB   │    │ AI Services│   │ Socket.IO   │
-
-#### &#x20;       │ Database  │    │            │   │ Real-time   │
-
-#### &#x20;       └───────────┘    └────────────┘   └─────────────┘
-
-#### 
-
+<p align="center">
+  <img src="./docs/architecture.png" alt="EduCoreAI System Architecture" width="900">
+</p>
 #### 🧠 AI \& Machine Learning Components
 
 #### 
