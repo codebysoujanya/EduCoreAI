@@ -1,0 +1,159 @@
+/* =========================================
+   EDUCORE AI - NAVBAR
+========================================= */
+
+.navbar {
+  width: 100%;
+  height: 70px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 0 28px;
+
+  background: #0f172a;
+
+  border-bottom: 1px solid #1e293b;
+
+  color: white;
+
+  position: relative;
+
+  z-index: 1000;
+}
+
+/* =========================================
+   LOGO
+========================================= */
+
+.navbar-logo {
+  display: flex;
+  align-items: center;
+
+  gap: 11px;
+
+  text-decoration: none;
+
+  color: white;
+
+  font-size: 20px;
+  font-weight: 700;
+
+  white-space: nowrap;
+}
+
+.navbar-logo-icon {
+  width: 40px;
+  height: 40px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background: #2563eb;
+
+  border-radius: 10px;
+
+  font-size: 20px;
+}
+
+.navbar-logo:hover {
+  color: #ffffff;
+}
+
+/* =========================================
+   NAVIGATION LINKS
+========================================= */
+
+.navbar-links {
+  display: flex;
+  align-items: center;
+
+  gap: 8px;
+}
+
+.navbar-links a {
+  display: flex;
+  align-items: center;
+
+  padding: 10px 16px;
+
+  border-radius: 8px;
+
+  text-decoration: none;
+
+  color: #cbd5e1;
+
+  font-size: 14px;
+  font-weight: 500;
+
+  transition:
+    background 0.25s ease,
+    color 0.25s ease;
+}
+
+.navbar-links a:hover {
+  background: #1e293b;
+
+  color: #ffffff;
+}
+
+.navbar-links a.active {
+  background: #2563eb;
+
+  color: #ffffff;
+}
+
+/* =========================================
+   TABLET
+========================================= */
+
+@media (max-width: 700px) {
+  .navbar {
+    height: 65px;
+
+    padding: 0 16px;
+  }
+
+  .navbar-logo {
+    font-size: 17px;
+  }
+
+  .navbar-logo-icon {
+    width: 36px;
+    height: 36px;
+
+    font-size: 18px;
+  }
+
+  .navbar-links {
+    gap: 3px;
+  }
+
+  .navbar-links a {
+    padding: 8px 10px;
+
+    font-size: 13px;
+  }
+}
+
+/* =========================================
+   SMALL MOBILE
+========================================= */
+
+@media (max-width: 450px) {
+  .navbar {
+    padding: 0 10px;
+  }
+
+  .navbar-logo span {
+    display: none;
+  }
+
+  .navbar-links a {
+    padding: 7px 8px;
+
+    font-size: 12px;
+  }
+}

@@ -1,0 +1,455 @@
+/* =========================================
+   EDUCORE AI - PROFESSIONAL SIDEBAR
+   ========================================= */
+
+.sidebar {
+  width: 280px;
+  min-width: 280px;
+  max-width: 280px;
+
+  height: 100vh;
+
+  position: sticky;
+  top: 0;
+
+  display: flex;
+  flex-direction: column;
+
+  padding: 30px 20px;
+
+  background: #0f172a;
+  color: #ffffff;
+
+  border-right: 1px solid #1e293b;
+
+  overflow-y: auto;
+  overflow-x: hidden;
+
+  flex-shrink: 0;
+
+  z-index: 100;
+}
+
+
+/* =========================================
+   LOGO
+   ========================================= */
+
+.sidebar-logo {
+  width: 100%;
+
+  display: flex;
+  align-items: center;
+
+  gap: 15px;
+
+  padding: 5px 8px 30px;
+
+  margin-bottom: 22px;
+
+  border-bottom: 1px solid #1e293b;
+}
+
+.sidebar-logo-icon {
+  width: 50px;
+  height: 50px;
+
+  min-width: 50px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background: linear-gradient(
+    135deg,
+    #2563eb,
+    #7c3aed
+  );
+
+  border-radius: 13px;
+
+  color: #ffffff;
+
+  font-size: 24px;
+
+  box-shadow:
+    0 8px 25px rgba(37, 99, 235, 0.25);
+}
+
+.sidebar-logo h2 {
+  margin: 0;
+
+  color: #ffffff;
+
+  font-size: 22px;
+
+  line-height: 1.2;
+
+  font-weight: 700;
+
+  letter-spacing: -0.3px;
+
+  white-space: nowrap;
+}
+
+
+/* =========================================
+   NAVIGATION
+   ========================================= */
+
+.sidebar-nav {
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+
+  gap: 10px;
+
+  margin-top: 2px;
+}
+
+
+/* =========================================
+   MENU BUTTON
+   ========================================= */
+
+.sidebar-nav button {
+  width: 100%;
+
+  min-height: 56px;
+
+  display: flex;
+  align-items: center;
+
+  gap: 16px;
+
+  padding: 14px 16px;
+
+  background: transparent;
+
+  border: 1px solid transparent;
+
+  border-radius: 12px;
+
+  color: #cbd5e1;
+
+  cursor: pointer;
+
+  text-align: left;
+
+  font-family: inherit;
+
+  font-size: 16px;
+
+  font-weight: 500;
+
+  line-height: 1.4;
+
+  letter-spacing: 0.1px;
+
+  transition:
+    background 0.25s ease,
+    color 0.25s ease,
+    border-color 0.25s ease,
+    transform 0.25s ease,
+    box-shadow 0.25s ease;
+}
+
+
+/* =========================================
+   HOVER
+   ========================================= */
+
+.sidebar-nav button:hover {
+  background: #18243a;
+
+  border-color: #293952;
+
+  color: #ffffff;
+
+  transform: translateX(3px);
+
+  box-shadow:
+    0 5px 16px rgba(0, 0, 0, 0.16);
+}
+
+
+/* =========================================
+   ACTIVE
+   ========================================= */
+
+.sidebar-nav button.active {
+  background: linear-gradient(
+    135deg,
+    #2563eb,
+    #3b82f6
+  );
+
+  border-color: #3b82f6;
+
+  color: #ffffff;
+
+  box-shadow:
+    0 9px 24px rgba(37, 99, 235, 0.28);
+}
+
+.sidebar-nav button.active:hover {
+  background: linear-gradient(
+    135deg,
+    #2563eb,
+    #3b82f6
+  );
+
+  border-color: #3b82f6;
+
+  transform: none;
+}
+
+
+/* =========================================
+   ICON
+   ========================================= */
+
+.sidebar-icon {
+  width: 28px;
+
+  min-width: 28px;
+
+  height: 28px;
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  color: inherit;
+
+  font-size: 20px;
+}
+
+
+/* =========================================
+   MENU TEXT
+   ========================================= */
+
+.sidebar-menu-text {
+  flex: 1;
+
+  color: inherit;
+
+  font-size: 16px;
+
+  font-weight: 500;
+
+  line-height: 1.4;
+
+  white-space: nowrap;
+
+  overflow: hidden;
+
+  text-overflow: ellipsis;
+}
+
+
+/* =========================================
+   SCROLLBAR
+   ========================================= */
+
+.sidebar::-webkit-scrollbar {
+  width: 5px;
+}
+
+.sidebar::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.sidebar::-webkit-scrollbar-thumb {
+  background: #263653;
+
+  border-radius: 10px;
+}
+
+.sidebar::-webkit-scrollbar-thumb:hover {
+  background: #3b82f6;
+}
+
+
+/* =========================================
+   TABLET
+   ========================================= */
+
+@media (max-width: 1100px) {
+
+  .sidebar {
+    width: 250px;
+
+    min-width: 250px;
+
+    max-width: 250px;
+
+    padding: 26px 16px;
+  }
+
+  .sidebar-logo {
+    padding-bottom: 26px;
+
+    margin-bottom: 19px;
+  }
+
+  .sidebar-logo-icon {
+    width: 46px;
+
+    height: 46px;
+
+    min-width: 46px;
+
+    font-size: 22px;
+  }
+
+  .sidebar-logo h2 {
+    font-size: 20px;
+  }
+
+  .sidebar-nav {
+    gap: 8px;
+  }
+
+  .sidebar-nav button {
+    min-height: 52px;
+
+    padding: 13px 14px;
+
+    gap: 14px;
+
+    font-size: 15px;
+  }
+
+  .sidebar-menu-text {
+    font-size: 15px;
+  }
+
+  .sidebar-icon {
+    width: 26px;
+
+    min-width: 26px;
+
+    font-size: 19px;
+  }
+}
+
+
+/* =========================================
+   MOBILE
+   ========================================= */
+
+@media (max-width: 700px) {
+
+  .sidebar {
+    position: relative;
+
+    width: 100%;
+
+    min-width: 100%;
+
+    max-width: 100%;
+
+    height: auto;
+
+    min-height: auto;
+
+    padding: 20px 16px;
+
+    border-right: none;
+
+    border-bottom: 1px solid #1e293b;
+  }
+
+  .sidebar-logo {
+    padding: 2px 5px 20px;
+
+    margin-bottom: 15px;
+  }
+
+  .sidebar-logo-icon {
+    width: 44px;
+
+    height: 44px;
+
+    min-width: 44px;
+
+    font-size: 21px;
+  }
+
+  .sidebar-logo h2 {
+    font-size: 20px;
+  }
+
+  .sidebar-nav {
+    gap: 7px;
+  }
+
+  .sidebar-nav button {
+    min-height: 50px;
+
+    padding: 12px 14px;
+
+    font-size: 15px;
+  }
+
+  .sidebar-menu-text {
+    font-size: 15px;
+  }
+}
+
+
+/* =========================================
+   SMALL MOBILE
+   ========================================= */
+
+@media (max-width: 450px) {
+
+  .sidebar {
+    padding: 16px 12px;
+  }
+
+  .sidebar-logo {
+    padding-bottom: 17px;
+
+    margin-bottom: 13px;
+  }
+
+  .sidebar-logo-icon {
+    width: 42px;
+
+    height: 42px;
+
+    min-width: 42px;
+
+    font-size: 20px;
+  }
+
+  .sidebar-logo h2 {
+    font-size: 19px;
+  }
+
+  .sidebar-nav button {
+    min-height: 48px;
+
+    padding: 11px 13px;
+
+    gap: 13px;
+  }
+
+  .sidebar-menu-text {
+    font-size: 14px;
+  }
+
+  .sidebar-icon {
+    width: 24px;
+
+    min-width: 24px;
+
+    font-size: 18px;
+  }
+}

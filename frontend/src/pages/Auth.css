@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+.auth-wrapper {
+  display: flex;
+  height: 100vh;
+}
+
+/* LEFT SIDE */
+.auth-left {
+  flex: 1;
+  background: #0b2a1f;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 60px;
+}
+
+.logo {
+  font-size: 26px;
+  font-weight: 700;
+}
+
+.auth-left p {
+  margin-top: 10px;
+  opacity: 0.8;
+}
+
+.illustration img {
+  margin-top: 40px;
+  width: 100%;
+  border-radius: 12px;
+}
+
+/* RIGHT SIDE */
+.auth-right {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #ffffff;
+}
+
+.login-card {
+  width: 380px;
+}
+
+.login-card h1 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+/* TABS */
+.tabs {
+  display: flex;
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 20px;
+}
+
+.tabs button {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.tabs .active {
+  border-bottom: 2px solid #0b2a1f;
+  color: #0b2a1f;
+}
+
+/* INPUTS */
+label {
+  font-size: 13px;
+  margin-top: 10px;
+  display: block;
+  color: #444;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+/* CAPTCHA BOX */
+.captcha {
+  margin-top: 15px;
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background: #f9f9f9;
+  font-size: 13px;
+}
+
+/* BUTTONS */
+.login-btn {
+  width: 100%;
+  margin-top: 15px;
+  padding: 12px;
+  background: #0b2a1f;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.divider {
+  text-align: center;
+  margin: 15px 0;
+  color: #888;
+}
+
+.google-btn {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  background: white;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+/* LINKS */
+.links, .signup {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 13px;
+}
+
+.links a, .signup a {
+  color: #0b2a1f;
+  text-decoration: none;
+}
