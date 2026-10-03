@@ -236,51 +236,23 @@ The following architecture represents the overall flow of EduCoreAI, including t
 </p>
 🧠 AI \& Machine Learning Components
 
-#### 
+1.Academic Risk Prediction:
+The academic risk module considers multiple student-related features and applies machine-learning techniques for prediction.
 
-#### Academic Risk Prediction
-
-#### 
-
-#### The academic risk module considers multiple student-related features and applies machine-learning techniques for prediction.
-
-#### 
-
-#### Models:
-
-#### 
-
-#### \* XGBoost
-
-#### \* Random Forest
-
-#### 
-
-#### Example input factors:
-
-#### text
-
-#### CGPA
-
-#### Attendance
-
-#### Backlogs
-
-#### Stress
-
-#### Sleep
-
-#### Study Hours
-
-#### Motivation
-
-#### ```
-
-#### 
-
-#### Agentic AI
-
-#### 
+2.Models:
+* XGBoost
+* Random Forest
+  
+Example input factors:
+text
+CGPA
+Attendance
+Backlogs
+Stress
+Sleep
+Study Hours
+Motivation
+Agentic AI
 
 #### The Agentic AI architecture separates different types of student assistance into specialized agents.
 
@@ -319,98 +291,45 @@ The following architecture represents the overall flow of EduCoreAI, including t
 #### 
 
 #### Frontend
+* React
+* Vite
+* JavaScript
+* HTML5
+* CSS3
+* Axios
+* React Router
+* React Icons
 
-#### 
-
-#### \* React
-
-#### \* Vite
-
-#### \* JavaScript
-
-#### \* HTML5
-
-#### \* CSS3
-
-#### \* Axios
-
-#### \* React Router
-
-#### \* React Icons
-
-#### 
-
-#### Backend
-
-#### 
-
-#### \* Node.js
-
-#### \* Express.js
-
-#### \* REST APIs
-
-#### \* Socket.IO
-
-#### \* JWT Authentication
-
-#### \* Multer
-
-#### 
+### Backend
+* Node.js
+* Express.js
+* REST APIs
+* Socket.IO
+* JWT Authentication
+* Multer
 
 #### Database
-
-#### 
-
-#### \* MongoDB
-
-#### \* Mongoose
-
-#### 
+* MongoDB
+* Mongoose
 
 #### AI / Machine Learning
-
-#### 
-
-#### \* Python
-
-#### \* Pandas
-
-#### \* NumPy
-
-#### \* Scikit-learn
-
-#### \* XGBoost
-
-#### \* Random Forest
-
-#### \* SHAP
-
-#### \* FAISS
-
-#### \* Gemini API / AI services
-
-#### 
-
+* Python
+* Pandas
+* NumPy
+* Scikit-learn
+* XGBoost
+* Random Forest
+* SHAP
+* Gemini API / AI services
+* 
 #### Development Tools
-
-#### 
-
-#### \* Visual Studio Code
-
-#### \* Git
-
-#### \* GitHub
-
-#### \* Jupyter Notebook
-
-#### 
+* Visual Studio Code
+* Git
+* GitHub
+* Jupyter Notebook
 
 #### 📁 Project Structure
 
-#### 
-
-#### 
 
 #### EduCoreAI/
 
@@ -484,29 +403,16 @@ The following architecture represents the overall flow of EduCoreAI, including t
 
 #### cd EduCoreAI
 
-#### 
-
 #### 2\. Install Backend Dependencies
 
 #### cd backend
 
 #### npm install
 
-#### 
-
 #### 3\. Configure Environment Variables
 
-#### 
-
 #### Create a `.env` file inside the `backend` directory.
-
-#### 
-
-#### Example:
-
-#### 
-
-#### ```env
+#### Example: env
 
 #### PORT=5000
 
@@ -518,11 +424,7 @@ The following architecture represents the overall flow of EduCoreAI, including t
 
 #### OPENAI\_API\_KEY=your\_openai\_api\_key
 
-#### 
-
 #### 4\. Start the Backend
-
-#### 
 
 #### From the `backend` directory:
 
