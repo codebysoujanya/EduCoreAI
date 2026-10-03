@@ -234,7 +234,7 @@ The following architecture represents the overall flow of EduCoreAI, including t
 <p align="center">
   <img src="./docs/architecture.png" alt="EduCoreAI System Architecture" width="900">
 </p>
-#### 🧠 AI \& Machine Learning Components
+🧠 AI \& Machine Learning Components
 
 #### 
 
