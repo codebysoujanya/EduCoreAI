@@ -321,7 +321,7 @@ Agentic AI
 * Random Forest
 * SHAP
 * Gemini API / AI services
-* 
+  
 #### Development Tools
 * Visual Studio Code
 * Git
